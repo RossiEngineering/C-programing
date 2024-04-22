@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main(){
+  FILE*fp;
+  fp=fopen("data.txt","r");
+  fscanf(fp,"%d\n",&a,&b);
+  fclose(fp);
+  int c=a+b;
+  printf("%d\n",c);
+}
