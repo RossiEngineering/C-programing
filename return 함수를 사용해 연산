@@ -1,0 +1,11 @@
+include <stdio.h>
+// 두 수를 더하는 함수
+int add(int a, int b) {
+    return a + b;
+}
+void main() {
+    int num1=2, num2=3, result;
+    result = add(num1, num2);
+    printf("%d + %d = %d\n", num1, num2, result);
+    return 0;
+}
