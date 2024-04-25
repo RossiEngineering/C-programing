@@ -1,7 +1,0 @@
-point <- c('94','86','90','88','98','80')
-
-mat <- matrix(point, nrow=2, ncol=3, byrow=TRUE)
-colnames(mat) <- c("국어","수학","영어")
-rownames(mat) <- c("20241","20242")
-
-mat
