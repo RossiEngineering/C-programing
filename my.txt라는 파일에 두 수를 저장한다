@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+    int a=22,b=33;
+    FILE*fp;
+    fp=fopen("mt.txt","w");
+    fprintf(fp,"%d %d", a,b);
+    fclose(fp);
+}
