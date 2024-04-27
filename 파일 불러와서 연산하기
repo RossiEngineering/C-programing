@@ -2,7 +2,7 @@
 
 int main(){
   FILE*fp;
-  fp=fopen("data.txt","r");
+  fp=fopen("my.txt","r");
   fscanf(fp,"%d\n",&a,&b);
   fclose(fp);
   int c=a+b;
