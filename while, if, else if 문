@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main() {
+    int temp;
+
+    while (1) {
+        printf("숫자를 입력해주세요(100=exit): ");
+        scanf("%d", &temp);
+
+        if (temp == 100) {
+            printf("종료되었습니다.\n");
+            break;
+        } else if (temp >= 20) {
+            printf("얇은 옷을 입으세요.\n");
+        } else {
+            printf("두꺼운 옷을 입으세요.\n");
+        }
+    }
+
+    return 0;
+}
