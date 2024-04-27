@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+   int a;
+   printf("날씨를 입력해주세요:");
+   scanf("%d",&a);
+   if(a<=19){
+    printf("긴 옷을 입는걸 추천합니다:");
+   }else{
+    printf("짧은 옷을 입는걸 추천합니다");
+   }
+   }
