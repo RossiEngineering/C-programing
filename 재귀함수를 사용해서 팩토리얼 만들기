@@ -1,0 +1,16 @@
+#include<stdio.h>
+int factorial(int n){
+    if(n==0||n==1){
+        return 1;
+    }
+    return n * factorial(n-1);
+}
+
+int main() {
+    int n;
+    printf("팩토리얼 함수에 들어갈 정수를 입력해주세요:");
+    scanf("%d",&n);
+    
+    printf("%d\n",factorial(n));
+    return 0;
+}
