@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main() {
+    int a = 0;
+    printf("정수를 입력해주세요: ");
+    scanf("%d", &a);
+
+    for (int b = 1; b <= 9; b++) {
+        int sum = a * b;
+        printf("%d x %d = %d\n", a, b, sum);
+    }
+
+    return 0;
+}
