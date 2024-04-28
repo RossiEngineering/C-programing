@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main() {
+    int number;
+    printf("정수를 입력해주세요:");
+    scanf("%d",&number);
+    for(int a=1; a<=number; a++){
+        if(a%3==0||a%5==0){
+            printf("%d ", a);
+        }else {
+            continue;
+        }
+    }
+    return 0;
+}
